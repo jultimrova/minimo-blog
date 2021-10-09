@@ -1,0 +1,83 @@
+body {
+	max-width: 1060px;
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+img {
+	width: 100%;
+	object-fit: cover;
+}
+
+section {
+	max-width: 100%;
+}
+
+h2 {
+	font-size: 30px;
+	letter-spacing: 100%;
+}
+
+h4 {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+
+p {
+	line-height: 24px;
+}
+
+a.menu {
+	margin-left: 95px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.logo {
+	font-family: 'Inconsolata', monospace;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 24px;
+	letter-spacing: 5px;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.photodiary {
+	margin-top: 95px;
+}
+
+.comment {
+	margin-top: 50px;
+}
+
+.lifestyle {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.life-card {
+	margin-top: 130px;
+	max-width: 420px;
+}
